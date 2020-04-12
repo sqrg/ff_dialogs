@@ -2,6 +2,8 @@
 
 A collection of Final Fantasy dialogs recreated in Flutter
 
+![Whatever](https://i.imgur.com/iRJZm8U.png)
+
 ## To do
 
 * **FF VII**
