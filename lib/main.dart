@@ -1,6 +1,7 @@
-import 'package:ff_dialogs/widgets/ffvii_dialog.dart';
 import 'package:flutter/material.dart';
 
+import 'package:ff_dialogs/widgets/ffvi_dialog.dart';
+import 'package:ff_dialogs/widgets/ffvii_dialog.dart';
 import 'package:ff_dialogs/widgets/ffviii_dialog.dart';
 
 void main() => runApp(MyApp());
@@ -38,6 +39,15 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            FlatButton(
+                child: Text('Final Fantasy VI'),
+                onPressed: () => {
+                      showDialog(
+                          context: context,
+                          builder: (BuildContext context) {
+                            return FfviDialog();
+                          })
+                    }),
             FlatButton(
                 child: Text('Final Fantasy VII'),
                 onPressed: () => {

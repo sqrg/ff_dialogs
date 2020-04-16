@@ -55,6 +55,9 @@ flutter:
     - family: SeeD Computer
       fonts:
         - asset: assets/fonts/seed-computer.ttf
+    - family: Final Fantasy VI
+      fonts:
+        - asset: assets/fonts/final-fantasy-vi.ttf
     - family: Final Fantasy VII
       fonts:
         - asset: assets/fonts/final-fantasy-vii.ttf
