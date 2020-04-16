@@ -47,7 +47,7 @@ class FfviiDialog extends StatelessWidget {
               margin: EdgeInsets.only(
                   left: 10.0, top: 0.0, right: 10.0, bottom: 10.0),
               child: Text(
-                'Whatever',
+                'This if fine',
                 style: dialogTextStyle,
               ),
             )
